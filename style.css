@@ -1,0 +1,72 @@
+body {
+  background-color: #F7F9FC;
+  color: rgb(205, 109, 178);
+  font-family: 'Lora', serif;
+  line-height: normal;
+}
+
+head {
+  color: black;
+  font-family: 'Lora', serif;
+  font-size: small;
+  line-height: normal;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(158, 74, 129);
+}
+
+a:hover {
+  color: rgb(173, 118, 8);
+  text-decoration: solid;
+  font-size: small;
+}
+
+h2 {
+  font-weight: 500;
+  color: rgb(115, 8, 132);
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+ul{
+  padding-inline-start: 0px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
